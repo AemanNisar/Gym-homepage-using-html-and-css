@@ -1,0 +1,135 @@
+/* CSS Reset */
+body {
+    font-family: 'Playfair Display', serif;
+        margin: 0px;
+    padding: 0px;
+    background: url('img/gym3.jpg');
+    
+
+}
+
+.left {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: aliceblue;
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-right: 1px;
+    width: 12%;
+}
+
+.left img {
+    /* border: 2px solid black; */
+    margin-left: 25px;
+    margin-top: 3px;
+    width: 50px;
+    filter: invert(100%);
+}
+
+.left div {
+    width: 98px;
+    /* border: 2px solid blue; */
+    text-align: center;
+    line-height: 22px;
+}
+
+.centre {
+    color: aliceblue;
+    display: block;
+    width: fit-content;
+    margin: 20px 19%;
+    /* border: 2px solid grey solid rgb(23, 6, 255); */
+
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    display: inline-block;
+    color: aliceblue;
+
+    /* border: 2px  solid yellow; */
+}
+
+.navbar {
+    /* border: 3px solid green; */
+    display: inline;
+    margin: 8px;
+}
+
+.navbar li {
+    padding-left: 1px;
+    padding-right: 4px;
+    font-size: 18px;
+    display: inline;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    margin: 4px;
+    ;
+
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+/* .navbar ul{
+    padding-left: 4px;
+} */
+.navbar li a:hover,.Snavbar li a.active {
+    color: rgb(214, 196, 196);
+    text-decoration: underline;
+
+}
+
+.btn {
+    /* Margin: top bottpm */
+    font-family: 'Playfair Display', serif;
+    margin: 0px 4px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    /* padding: vertically n horizontally */
+    padding: 3px 9px; 
+    border: 2px solid grey;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+.btn:click{
+    padding: 4px 10px; 
+
+}
+div.container{
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    margin: 80px 61px;
+    padding: 20px 40px;
+    width: 34%;
+    border-radius: 21px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 234px;
+    padding:2px 6px;
+    /* border: 2px solid black; */
+    margin: 4px auto;
+
+}
+.container .btn{
+    display: block;
+    width:86%;
+    margin: 18px auto;
+}
+.container h3{
+    text-align: center;
+}
