@@ -3,7 +3,7 @@ body {
     font-family: 'Playfair Display', serif;
         margin: 0px;
     padding: 0px;
-    background: url('img/gym3.jpg');
+    background: url('img/gym3.jpg') no-repeat;
     
 
 }
